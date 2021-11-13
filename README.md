@@ -1,5 +1,7 @@
 # tesvue-task
 
+demo: https://aniamanson.github.io/test-Vue-task/
+
 ## Project setup
 ```
 npm install
