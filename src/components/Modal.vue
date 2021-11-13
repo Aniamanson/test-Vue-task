@@ -42,7 +42,7 @@ export default {
     },
     showRegistrationSucces(target) {
       this.targerBlock = target;
-      setTimeout(() => { this.$emit('close'); }, 3000);
+      setTimeout(() => { this.$emit('close'); }, 1000);
     },
     getFormData(form) {
       this.$emit('getFormData', form);

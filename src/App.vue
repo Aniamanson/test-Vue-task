@@ -74,10 +74,17 @@ export default {
   color: #2c3e50;
   max-width: 400px;
   margin: 60px auto;
+
+  @media (max-width: 430px) {
+    padding: 0 20px;
+  }
 }
 h1 {
   margin: 0 0 30px;
   line-height: 34px;
+  @media (max-width: 430px) {
+    font-size: 1.5em;
+  }
 }
 h2 {
   font-size: 22px;
